@@ -10,308 +10,53 @@
   <header class="site-header">
     <div class="container">
       <p class="eyebrow">TRPG PROFILE</p>
-      <h1>しかこ</h1>
+      <h1 id="page-title">しかこ</h1>
     </div>
   </header>
 
   <main class="container">
     <section class="card" id="likes">
       <h2>好きな要素</h2>
-      <ul class="tag-list">
-        <li>ホラー</li>
-        <li>インモラル</li>
-        <li>謎解き・ゲーム要素</li>
-        <li>特殊なキャラのRPができる</li>
-      </ul>
+      <ul class="tag-list" id="likes-list"></ul>
     </section>
 
     <section class="card" id="completed-scenarios">
       <h2>通過済みシナリオ</h2>
-      <p class="scenario-count">計 <strong>56</strong> 本</p>
+      <p class="scenario-count">計 <strong id="completed-count">0</strong> 本</p>
 
-      <div class="tab-bar">
-        <button class="tab-btn active" data-tab="main">メイン</button>
-        <button class="tab-btn" data-tab="ongoing">継続</button>
-        <button class="tab-btn" data-tab="planned">通過予定</button>
-      </div>
-
-      <div class="tab-panel" id="tab-main">
-        <div class="filter-bar">
-          <span class="filter-label">PL数:</span>
-          <button class="filter-btn active" data-filter="all">すべて</button>
-          <button class="filter-btn" data-filter="ソロ">ソロ</button>
-          <button class="filter-btn" data-filter="タイマン">タイマン</button>
-          <button class="filter-btn" data-filter="KPレス">KPレス</button>
-          <button class="filter-btn" data-filter="2PL">2PL</button>
-          <button class="filter-btn" data-filter="1-2PL">1-2PL</button>
-          <button class="filter-btn" data-filter="1-4PL">1-4PL</button>
-          <button class="filter-btn" data-filter="秘匿3PL">秘匿3PL</button>
-          <button class="filter-btn" data-filter="4PL">4PL</button>
-        </div>
-        <ul class="scenario-list">
-          <li data-pl="ソロ" data-dur="1h"><span class="scenario-name">カタシロ</span><span class="scenario-badges"><span class="scenario-badge badge-pl">ソロ</span><span class="scenario-badge badge-dur">1h</span></span></li>
-          <li data-pl="ソロ" data-dur="半日"><span class="scenario-name">輾転と町は</span><span class="scenario-badges"><span class="scenario-badge badge-pl">ソロ</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="ソロ" data-dur="半日"><span class="scenario-name">遺達</span><span class="scenario-badges"><span class="scenario-badge badge-pl">ソロ</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="ソロ" data-dur="30min"><span class="scenario-name">風呂ホラーRTA</span><span class="scenario-badges"><span class="scenario-badge badge-pl">ソロ</span><span class="scenario-badge badge-dur">30min</span></span></li>
-          <li data-pl="ソロ" data-dur="半日"><span class="scenario-name">禁足地A</span><span class="scenario-badges"><span class="scenario-badge badge-pl">ソロ</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="ソロ" data-dur="半日"><span class="scenario-name">歪の揺籠</span><span class="scenario-badges"><span class="scenario-badge badge-pl">ソロ</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="ソロ" data-dur="半日"><span class="scenario-name">あまがささん</span><span class="scenario-badges"><span class="scenario-badge badge-pl">ソロ</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="ソロ" data-dur="半日"><span class="scenario-name">ループ橋で何かが自分を待っているんです</span><span class="scenario-badges"><span class="scenario-badge badge-pl">ソロ</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="タイマン" data-dur="半日"><span class="scenario-name">初恋性ストックホルム症候群</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="タイマン" data-dur="半日"><span class="scenario-name">じょはり</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="KPレス" data-dur="1h"><span class="scenario-name">触レル美術館</span><span class="scenario-badges"><span class="scenario-badge badge-pl">KPレス</span><span class="scenario-badge badge-dur">1h</span></span></li>
-          <li data-pl="KPレス" data-dur="半日"><span class="scenario-name">可惜夜明けて此岸に伏す</span><span class="scenario-badges"><span class="scenario-badge badge-pl">KPレス</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="2PL" data-dur="1日"><span class="scenario-name">実験体δは青に微笑む</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">1日</span></span></li>
-          <li data-pl="2PL" data-dur="半日"><span class="scenario-name">たたら</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="1-2PL" data-dur="半日"><span class="scenario-name">東亰臨死クラブ</span><span class="scenario-badges"><span class="scenario-badge badge-pl">1-2PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="1-4PL" data-dur="半日"><span class="scenario-name">海石榴邸殺人事件</span><span class="scenario-badges"><span class="scenario-badge badge-pl">1-4PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="1-4PL" data-dur="半日"><span class="scenario-name">うみひどら</span><span class="scenario-badges"><span class="scenario-badge badge-pl">1-4PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="秘匿2PL" data-dur="1日"><span class="scenario-name">辜月のN</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">1日</span></span></li>
-          <li data-pl="秘匿2PL" data-dur="半日"><span class="scenario-name">片鱗</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="秘匿2PL" data-dur="1日"><span class="scenario-name">愛罠蜂</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">1日</span></span></li>
-          <li data-pl="秘匿2PL" data-dur="1-2日"><span class="scenario-name">鰯と柊</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">1-2日</span></span></li>
-          <li data-pl="秘匿2PL" data-dur="1日"><span class="scenario-name">ロトカ・ヴォルテラの愛堕討ち</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">1日</span></span></li>
-          <li data-pl="秘匿2PL" data-dur="1日"><span class="scenario-name">Good Morning All</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">1日</span></span></li>
-          <li data-pl="秘匿2PL" data-dur="半日"><span class="scenario-name">ドロップアウトディスパイア</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="秘匿2PL" data-dur="半日"><span class="scenario-name">コードネーム：ドッペルゲンガー</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="秘匿2PL" data-dur="1日"><span class="scenario-name">同居人</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">1日</span></span></li>
-          <li data-pl="秘匿2PL" data-dur="半日"><span class="scenario-name">DOGMA</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="秘匿2PL" data-dur="1日"><span class="scenario-name">ドグマの秤</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">1日</span></span></li>
-          <li data-pl="秘匿2PL" data-dur="1日"><span class="scenario-name">花冷えに亡く季節</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">1日</span></span></li>
-          <li data-pl="秘匿3PL" data-dur="1日"><span class="scenario-name">ビスポークランドで何があったか？</span><span class="scenario-badges"><span class="scenario-badge badge-pl">秘匿3PL</span><span class="scenario-badge badge-dur">1日</span></span></li>
-          <li data-pl="4PL" data-dur="1日"><span class="scenario-name">沼男は誰だ？</span><span class="scenario-badges"><span class="scenario-badge badge-pl">4PL</span><span class="scenario-badge badge-dur">1日</span></span></li>
-          <li data-pl="4PL" data-dur="2日"><span class="scenario-name">ネームレス・カルト</span><span class="scenario-badges"><span class="scenario-badge badge-pl">4PL</span><span class="scenario-badge badge-dur">2日</span></span></li>
-          <li data-pl="秘匿4PL" data-dur="3-4日"><span class="scenario-name">四季送り</span><span class="scenario-badges"><span class="scenario-badge badge-pl">4PL</span><span class="scenario-badge badge-dur">3-4日</span></span></li>
-          <li data-pl="秘匿4PL" data-dur="半日"><span class="scenario-name">君たちは犬だ</span><span class="scenario-badges"><span class="scenario-badge badge-pl">4PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="秘匿4PL" data-dur="2-3日"><span class="scenario-name">VOID</span><span class="scenario-badges"><span class="scenario-badge badge-pl">4PL</span><span class="scenario-badge badge-dur">2-3日</span></span></li>
-          <li data-pl="秘匿4PL" data-dur="2日"><span class="scenario-name">ソープスクール</span><span class="scenario-badges"><span class="scenario-badge badge-pl">4PL</span><span class="scenario-badge badge-dur">2日</span></span></li>
-          <li data-pl="秘匿4PL" data-dur="3日"><span class="scenario-name">静なるテロリスタ</span><span class="scenario-badges"><span class="scenario-badge badge-pl">4PL</span><span class="scenario-badge badge-dur">3日</span></span></li>
-          <li data-pl="秘匿4PL" data-dur="2日"><span class="scenario-name">カノヨ街</span><span class="scenario-badges"><span class="scenario-badge badge-pl">4PL</span><span class="scenario-badge badge-dur">2日</span></span></li>
-        </ul>
-      </div>
-
-      <div class="tab-panel hidden" id="tab-ongoing">
-        <div class="filter-bar">
-          <span class="filter-label">PL数:</span>
-          <button class="filter-btn active" data-filter="all">すべて</button>
-          <button class="filter-btn" data-filter="タイマン">タイマン</button>
-          <button class="filter-btn" data-filter="1-4PL">1-4PL</button>
-        </div>
-        <ul class="scenario-list">
-          <li data-pl="タイマン"><span class="scenario-name">黄身と蜂蜜</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge ongoing">継続</span></span></li>
-          <li data-pl="タイマン"><span class="scenario-name">君のためのヒポクリシー</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge ongoing">継続</span></span></li>
-          <li data-pl="タイマン"><span class="scenario-name">素晴らしき新年</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge ongoing">継続</span></span></li>
-          <li data-pl="タイマン"><span class="scenario-name">結んだ赤い糸の先を教えて</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge ongoing">継続</span></span></li>
-          <li data-pl="タイマン"><span class="scenario-name">クックハウス・インザ・ディープ</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge ongoing">継続</span></span></li>
-          <li data-pl="タイマン"><span class="scenario-name">おばけの街</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge ongoing">継続</span></span></li>
-          <li data-pl="タイマン"><span class="scenario-name">しんでなんかないよ</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge ongoing">継続</span></span></li>
-          <li data-pl="タイマン"><span class="scenario-name">君が壊した世界の話</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge ongoing">継続</span></span></li>
-          <li data-pl="タイマン"><span class="scenario-name">コペルニクスは笑わない</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge ongoing">継続</span></span></li>
-          <li data-pl="タイマン"><span class="scenario-name">ごぜんにじにあいにきて</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge ongoing">継続</span></span></li>
-          <li data-pl="タイマン"><span class="scenario-name">閉ざされたカーテンの裏で</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge ongoing">継続</span></span></li>
-          <li data-pl="タイマン"><span class="scenario-name">きすきす・ちぇんじんぐ！</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge ongoing">継続</span></span></li>
-          <li data-pl="タイマン"><span class="scenario-name">選んでよ最愛</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge ongoing">継続</span></span></li>
-          <li data-pl="タイマン"><span class="scenario-name">Hazy night</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge ongoing">継続</span></span></li>
-          <li data-pl="タイマン"><span class="scenario-name">黄昏の君へ</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge ongoing">継続</span></span></li>
-          <li data-pl="1-4PL"><span class="scenario-name">満月のない十五夜</span><span class="scenario-badges"><span class="scenario-badge badge-pl">1-4PL</span><span class="scenario-badge ongoing">継続</span></span></li>
-          <li data-pl="1-4PL"><span class="scenario-name">うらめし修学旅行</span><span class="scenario-badges"><span class="scenario-badge badge-pl">1-4PL</span><span class="scenario-badge ongoing">継続</span></span></li>
-          <li data-pl="1-4PL"><span class="scenario-name">お地蔵さんは呼んでいる</span><span class="scenario-badges"><span class="scenario-badge badge-pl">1-4PL</span><span class="scenario-badge ongoing">継続</span></span></li>
-        </ul>
-      </div>
-
-      <div class="tab-panel hidden" id="tab-planned">
-        <div class="filter-bar">
-          <span class="filter-label">PL数:</span>
-          <button class="filter-btn active" data-filter="all">すべて</button>
-          <button class="filter-btn" data-filter="タイマン">タイマン</button>
-          <button class="filter-btn" data-filter="2-3PL">2-3PL</button>
-          <button class="filter-btn" data-filter="4PL">4PL</button>
-        </div>
-        <ul class="scenario-list">
-          <li data-pl="タイマン" data-dur="半日"><span class="scenario-name">黄色い蝶</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="2-3PL" data-dur="半日"><span class="scenario-name">蒲桃館の友人</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2-3PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-          <li data-pl="4PL" data-dur="1日"><span class="scenario-name">Danza Tarantella</span><span class="scenario-badges"><span class="scenario-badge badge-pl">4PL</span><span class="scenario-badge badge-dur">1日</span></span></li>
-          <li data-pl="秘匿4PL" data-dur="1日"><span class="scenario-name">魔法少女は死を唄え</span><span class="scenario-badges"><span class="scenario-badge badge-pl">4PL</span><span class="scenario-badge badge-dur">1日</span></span></li>
-          <li data-pl="秘匿4PL" data-dur="4日"><span class="scenario-name">遺香廻り</span><span class="scenario-badges"><span class="scenario-badge badge-pl">4PL</span><span class="scenario-badge badge-dur">4日</span></span></li>
-        </ul>
-      </div>
+      <div class="tab-bar" id="completed-tabs"></div>
+      <div id="completed-panels"></div>
     </section>
 
     <section class="card" id="gm-scenarios">
       <h2>回せるシナリオ</h2>
-      <p class="scenario-count">計 <strong>25</strong> 本</p>
-      <div class="filter-bar">
-        <span class="filter-label">PL数:</span>
-        <button class="filter-btn active" data-filter="all">すべて</button>
-        <button class="filter-btn" data-filter="ソロ">ソロ</button>
-        <button class="filter-btn" data-filter="タイマン">タイマン</button>
-        <button class="filter-btn" data-filter="2PL">2PL</button>
-        <button class="filter-btn" data-filter="1-2PL">1-2PL</button>
-        <button class="filter-btn" data-filter="1-4PL">1-4PL</button>
+      <p class="scenario-count">計 <strong id="gm-count">0</strong> 本</p>
+      <div id="gm-content"></div>
+    </section>
+
+    <section class="card" id="display-gallery">
+      <h2>ディスプレイ</h2>
+      <div class="slider-wrapper">
+        <button class="slider-btn slider-prev" aria-label="前へ">&#8249;</button>
+        <div class="slider-track-outer">
+          <div class="slider-track" id="slider-track"></div>
+        </div>
+        <button class="slider-btn slider-next" aria-label="次へ">&#8250;</button>
       </div>
-      <ul class="scenario-list">
-        <li data-pl="ソロ" data-dur="半日"><span class="scenario-name">S病院跡地</span><span class="scenario-badges"><span class="scenario-badge badge-pl">ソロ</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="ソロ" data-dur="半日"><span class="scenario-name">真夜中、この子が泣いたから</span><span class="scenario-badges"><span class="scenario-badge badge-pl">ソロ</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="ソロ" data-dur="1h"><span class="scenario-name">おいでおいで</span><span class="scenario-badges"><span class="scenario-badge badge-pl">ソロ</span><span class="scenario-badge badge-dur">1h</span></span></li>
-        <li data-pl="ソロ" data-dur="1h"><span class="scenario-name">暗晦</span><span class="scenario-badges"><span class="scenario-badge badge-pl">ソロ</span><span class="scenario-badge badge-dur">1h</span></span></li>
-        <li data-pl="ソロ" data-dur="半日"><span class="scenario-name">あまがささん</span><span class="scenario-badges"><span class="scenario-badge badge-pl">ソロ</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="ソロ" data-dur="半日"><span class="scenario-name">肉塊に変わりなし</span><span class="scenario-badges"><span class="scenario-badge badge-pl">ソロ</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="タイマン" data-dur="半日"><span class="scenario-name">グラトニヰ</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="タイマン" data-dur="半日"><span class="scenario-name">おとなりさん</span><span class="scenario-badges"><span class="scenario-badge badge-pl">タイマン</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="2PL" data-dur="半日"><span class="scenario-name">たたら</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="2PL" data-dur="半日"><span class="scenario-name">ひもろぎ封じ</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="2PL" data-dur="半日"><span class="scenario-name">留守番番</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="1-2PL" data-dur="半日"><span class="scenario-name">食卓のドロテア</span><span class="scenario-badges"><span class="scenario-badge badge-pl">1-2PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="1-4PL" data-dur="半日"><span class="scenario-name">MAIDS AND WEAPONS</span><span class="scenario-badges"><span class="scenario-badge badge-pl">1-4PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="1-4PL" data-dur="半日"><span class="scenario-name">海石榴邸殺人事件</span><span class="scenario-badges"><span class="scenario-badge badge-pl">1-4PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="1-4PL" data-dur="半日"><span class="scenario-name">ナあ二</span><span class="scenario-badges"><span class="scenario-badge badge-pl">1-4PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="1-4PL" data-dur="半日"><span class="scenario-name">ひしらぬ障子</span><span class="scenario-badges"><span class="scenario-badge badge-pl">1-4PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="1-4PL" data-dur="半日"><span class="scenario-name">うみひどら</span><span class="scenario-badges"><span class="scenario-badge badge-pl">1-4PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="秘匿2PL" data-dur="1日"><span class="scenario-name">愛罠蜂</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">1日</span></span></li>
-        <li data-pl="秘匿2PL" data-dur="半日"><span class="scenario-name">花腐し頃の殺人鬼</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="秘匿2PL" data-dur="1日"><span class="scenario-name">ロトカ・ヴォルテラの愛堕討ち</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">1日</span></span></li>
-        <li data-pl="秘匿2PL" data-dur="1日"><span class="scenario-name">Good Morning All</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">1日</span></span></li>
-        <li data-pl="秘匿2PL" data-dur="半日"><span class="scenario-name">DOGMA</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="秘匿2PL" data-dur="1日"><span class="scenario-name">辜月のN</span><span class="scenario-badges"><span class="scenario-badge badge-pl">2PL</span><span class="scenario-badge badge-dur">1日</span></span></li>
-        <li data-pl="秘匿4PL" data-dur="半日"><span class="scenario-name">SDMBBBB!</span><span class="scenario-badges"><span class="scenario-badge badge-pl">4PL</span><span class="scenario-badge badge-dur">半日</span></span></li>
-        <li data-pl="秘匿4PL" data-dur="3日"><span class="scenario-name">エアツェールング・ダス・エンデ</span><span class="scenario-badges"><span class="scenario-badge badge-pl">4PL</span><span class="scenario-badge badge-dur">3日</span></span></li>
-      </ul>
+      <div class="slider-dots" id="slider-dots"></div>
     </section>
 
   </main>
 
-    <section class="card" id="display-gallery">
-      <div class="slider-wrapper">
-        <button class="slider-btn slider-prev" aria-label="前へ">&#8249;</button>
-        <div class="slider-track-outer">
-          <div class="slider-track">
-            <div class="slide">
-              <img src="ディスプレイ/神宮寺誠也.png" alt="神宮寺誠也" />
-              <div class="slide-caption">
-                <span class="slide-chara">神宮寺誠也</span>
-                <span class="slide-scenario">ネームレス・カルト</span>
-              </div>
-            </div>
-            <div class="slide">
-              <img src="ディスプレイ/陽美桜里.png" alt="陽美桜里" />
-              <div class="slide-caption">
-                <span class="slide-chara">陽美桜里</span>
-                <span class="slide-scenario">ドグマの秤</span>
-              </div>
-            </div>
-            <div class="slide">
-              <img src="ディスプレイ/ぽむすけ.png" alt="ぽむすけ" />
-              <div class="slide-caption">
-                <span class="slide-chara">ぽむすけ</span>
-                <span class="slide-scenario">魔法少女は死を唄え</span>
-              </div>
-            </div>
-            <div class="slide">
-              <img src="ディスプレイ/水代紘都.png" alt="水代紘都" />
-              <div class="slide-caption">
-                <span class="slide-chara">水代紘都</span>
-                <span class="slide-scenario">風呂ホラーRTA</span>
-              </div>
-            </div>
-            <div class="slide">
-              <img src="ディスプレイ/Ἀράχνη.png" alt="Ἀράχνη" />
-              <div class="slide-caption">
-                <span class="slide-chara">Ἀράχνη</span>
-                <span class="slide-scenario">Danza Tarantella</span>
-              </div>
-            </div>
-            <div class="slide">
-              <img src="ディスプレイ/水無月新.png" alt="水無月新" />
-              <div class="slide-caption">
-                <span class="slide-chara">水無月新</span>
-                <span class="slide-scenario">初恋性ストックホルム症候群</span>
-              </div>
-            </div>
-            <div class="slide">
-              <img src="ディスプレイ/柊一葉.png" alt="柊一葉" />
-              <div class="slide-caption">
-                <span class="slide-chara">柊一葉</span>
-                <span class="slide-scenario">花冷えに亡く季節</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button class="slider-btn slider-next" aria-label="次へ">&#8250;</button>
-      </div>
-      <div class="slider-dots">
-        <span class="dot active" data-index="0"></span>
-        <span class="dot" data-index="1"></span>
-        <span class="dot" data-index="2"></span>
-        <span class="dot" data-index="3"></span>
-        <span class="dot" data-index="4"></span>
-        <span class="dot" data-index="5"></span>
-        <span class="dot" data-index="6"></span>
-      </div>
-    </section>
-
   <footer class="site-footer">
     <div class="container">
-      <p>© 2026 しかこ / shikako9861</p>
+      <p id="footer-text">© 2026 しかこ / shikako9861</p>
     </div>
   </footer>
-
-  <script>
-    // Tab switching
-    document.querySelectorAll('.tab-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const card = btn.closest('.card');
-        card.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        card.querySelectorAll('.tab-panel').forEach(p => p.classList.add('hidden'));
-        card.querySelector('#tab-' + btn.dataset.tab).classList.remove('hidden');
-      });
-    });
-
-    // Filter buttons
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const bar = btn.closest('.filter-bar');
-        bar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        const filter = btn.dataset.filter;
-        const container = btn.closest('.tab-panel') || btn.closest('.card');
-        const list = container.querySelector('.scenario-list');
-        const normalizedFilters = {
-          '2PL': ['2PL', '秘匿2PL'],
-          '4PL': ['4PL', '秘匿4PL']
-        };
-        const allowed = normalizedFilters[filter] || [filter];
-        list.querySelectorAll('li').forEach(li => {
-          li.style.display = (filter === 'all' || allowed.includes(li.dataset.pl)) ? '' : 'none';
-        });
-      });
-    });
-
-    // Slider
-    (function () {
-      const track = document.querySelector('.slider-track');
-      const slides = track ? track.querySelectorAll('.slide') : [];
-      const dots = document.querySelectorAll('.dot');
-      let current = 0;
-      let touchStartX = 0;
-
-      function goTo(n) {
-        current = (n + slides.length) % slides.length;
-        track.style.transform = 'translateX(-' + (current * 100) + '%)';
-        dots.forEach(function (d, i) { d.classList.toggle('active', i === current); });
-      }
-
-      document.querySelector('.slider-prev')?.addEventListener('click', function () { goTo(current - 1); });
-      document.querySelector('.slider-next')?.addEventListener('click', function () { goTo(current + 1); });
-      dots.forEach(function (d, i) { d.addEventListener('click', function () { goTo(i); }); });
-
-      const outer = document.querySelector('.slider-track-outer');
-      outer?.addEventListener('touchstart', function (e) { touchStartX = e.changedTouches[0].clientX; }, { passive: true });
-      outer?.addEventListener('touchend', function (e) {
-        const dx = e.changedTouches[0].clientX - touchStartX;
-        if (Math.abs(dx) > 40) goTo(current + (dx < 0 ? 1 : -1));
-      }, { passive: true });
-    })();
-  </script>
+  <script src="data/profile.js"></script>
+  <script src="data/completed.js"></script>
+  <script src="data/gm.js"></script>
+  <script src="data/gallery.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
