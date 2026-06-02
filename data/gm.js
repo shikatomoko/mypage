@@ -1,12 +1,17 @@
 window.gmData = [
   { name: 'S病院跡地', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
+  { name: 'じょはり', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
+  { name: 'カタシロ', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
+  { name: '禁足地A', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
   { name: '真夜中、この子が泣いたから', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
   { name: 'おいでおいで', filter: 'ソロ', badge: 'ソロ', meta: '1h' },
   { name: '暗晦', filter: 'ソロ', badge: 'ソロ', meta: '1h' },
   { name: 'あまがささん', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
   { name: '肉塊に変わりなし', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
   { name: 'グラトニヰ', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
+  { name: '内側まで、お下がりください', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
   { name: 'おとなりさん', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
+  { name: '黄色い蝶', filter: 'タイマン', badge: 'タイマン', meta: '全日' },
   { name: 'たたら', filter: '2PL', badge: '2PL', meta: '半日' },
   { name: 'ひもろぎ封じ', filter: '2PL', badge: '2PL', meta: '半日' },
   { name: '留守番番', filter: '2PL', badge: '2PL', meta: '半日' },
@@ -24,6 +29,9 @@ window.gmData = [
   { name: '辜月のN', filter: '2PL', badge: '2PL', meta: '1日' },
   { name: 'SDMBBBB!', filter: '4PL', badge: '4PL', meta: '半日' },
   { name: 'エアツェールング・ダス・エンデ', filter: '4PL', badge: '4PL', meta: '3日' },
+  { name: 'レ・ミゼラブルの復讐', filter: '4PL', badge: '4PL', meta: '3日' },
   { name: 'dropout despair', filter: '2PL', badge: '2PL', meta: '半日' },
-  { name: '取得せよ！　単位！！', filter: '1-4PL', badge: '1-4PL', meta: '半日' }
+  { name: '取得せよ！単位！！', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
+  { name: '満月のない十五夜', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
+  { name: 'KPCの家で自陣がBBQするシナリオ', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
 ];

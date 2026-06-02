@@ -14,6 +14,9 @@ window.completedData = {
     { name: 'じょはり', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
     { name: '触レル美術館', filter: 'KPレス', badge: 'KPレス', meta: '1h' },
     { name: '可惜夜明けて此岸に伏す', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
+    { name: '波間にまにまに', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
+    { name: 'トンネルの噂', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
+    { name: '夜迷祭', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: '実験体δは青に微笑む', filter: '2PL', badge: '2PL', meta: '1日' },
     { name: 'たたら', filter: '2PL', badge: '2PL', meta: '半日' },
     { name: '東亰臨死クラブ', filter: '1-2PL', badge: '1-2PL', meta: '半日' },
@@ -44,7 +47,12 @@ window.completedData = {
     { name: '蒲桃館の友人', filter: '2-3PL', badge: '2-3PL', meta: '半日' },
     { name: 'Danza Tarantella', filter: '4PL', badge: '4PL', meta: '1日' },
     { name: '魔法少女は死を唄え', filter: '4PL', badge: '4PL', meta: '1日' },
-    { name: '夏に至る病', filter: 'タイマン', badge: 'タイマン', meta: '半日' }
+    { name: '夏に至る病', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
+    { name: 'マザーグースレストラン', filter: '2-4PL', badge: '2-4PL', meta: '半日' },
+    { name: 'ゆらめく魔法市', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
+    { name: '海も枯れるまで', filter: '2PL', badge: '2PL', meta: '1日' },
+    { name: '死人に口あり', filter: '2PL', badge: '2PL', meta: '1日' },
+    { name: '異説・狂人日記', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
   ],
   ongoing: [
     { name: '黄身と蜂蜜', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
@@ -65,19 +73,21 @@ window.completedData = {
     { name: '満月のない十五夜', filter: '1-4PL', badge: '1-4PL', meta: '継続' },
     { name: 'うらめし修学旅行', filter: '1-4PL', badge: '1-4PL', meta: '継続' },
     { name: 'お地蔵さんは呼んでいる', filter: '1-4PL', badge: '1-4PL', meta: '継続' },
-    { name: 'ひときれの無垢', filter: 'タイマン', badge: 'タイマン', meta: '継続' }
+    { name: 'ひときれの無垢', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
+    { name: '４ぶんの１', filter: 'KPレス', badge: 'KPレス', meta: '継続' },
   ],
   planned: [
     { name: '遺香廻り', filter: '4PL', badge: '4PL', meta: '4日' },
-    { name: '青い服', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
     { name: 'シャーロック・ホームズ症候群', filter: '2PL', badge: '2PL', meta: '3日' },
     { name: 'てれれ霖雨', filter: '2PL', badge: '2PL', meta: '1日' },
-    { name: 'マザーグースレストラン', filter: '2-4PL', badge: '2-4PL', meta: '半日' },
-    { name: 'ゆらめく魔法市', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
-    { name: '海も枯れるまで', filter: '2PL', badge: '2PL', meta: '1日' },
     { name: '怪訝館の殺人', filter: '2-3PL', badge: '2-3PL', meta: '半日' },
-    { name: '異説・狂人日記', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
-    { name: '死人に口あり', filter: '2PL', badge: '2PL', meta: '1日' },
-    { name: '星の吸血鬼にさよならを', filter: '2PL', badge: '2PL', meta: '1日' }
+    { name: '星の吸血鬼にさよならを', filter: '2PL', badge: '2PL', meta: '1日' },
+    { name: '壊胎', filter: '2PL', badge: '2PL', meta: '1日' },
+    { name: '邂逅', filter: '2PL', badge: '2PL', meta: '2日' },
+    { name: '天使の魔眼は死を殺す', filter: '2PL', badge: '2PL', meta: '2日' },
+    { name: 'Bye-bye Summer Days', filter: '4PL', badge: '4PL', meta: '1日' },
+    { name: '選択の館', filter: '2-4PL', badge: '2-4PL', meta: '1日' },
+    { name: 'かいぶつたちとマホラカルト', filter: '4PL', badge: '4PL', meta: '1日' },
+    { name: '蹂躙するは我が手にて', filter: '4PL', badge: '4PL', meta: '半日' }
   ]
 };
