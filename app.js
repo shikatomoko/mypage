@@ -20,8 +20,11 @@ function loadPageData() {
     renderScenarioSection('gm-content', data.gm || []);
     renderGallery(data.gallery || []);
 
-    document.getElementById('completed-count').textContent = data.profile.meta.completedCount || String((data.completed.main?.length || 0) + (data.completed.ongoing?.length || 0));
-    document.getElementById('gm-count').textContent = data.profile.meta.gmCount || String(data.gm.length);
+    // Calculate counts from data (always use actual data count, not profile meta)
+    const completedCount = (data.completed.main?.length || 0) + (data.completed.ongoing?.length || 0);
+    const gmCount = data.gm.length;
+    document.getElementById('completed-count').textContent = String(completedCount);
+    document.getElementById('gm-count').textContent = String(gmCount);
 
     bindTabSwitching();
     bindFilters();

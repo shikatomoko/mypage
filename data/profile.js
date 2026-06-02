@@ -1,9 +1,7 @@
 window.profileData = {
   meta: {
     title: 'しかこ',
-    footer: '© 2026 しかこ / shikako9861',
-    completedCount: '56',
-    gmCount: '25'
+    footer: '© 2026 しかこ / shikako9861'
   },
   likes: [
     'ホラー',
