@@ -32,6 +32,7 @@ window.gmData = [
   { name: 'レ・ミゼラブルの復讐', filter: '4PL', badge: '4PL', meta: '3日' },
   { name: 'dropout despair', filter: '2PL', badge: '2PL', meta: '半日' },
   { name: '取得せよ！単位！！', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
+   { name: 'Feel All Right', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
   { name: '満月のない十五夜', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
   { name: 'KPCの家で自陣がBBQするシナリオ', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
 ];

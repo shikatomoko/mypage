@@ -20,12 +20,15 @@ window.completedData = {
     { name: 'くゆる睡蓮', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: 'シキラレ■■', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: 'トンネルの噂', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
+    { name: '電子の深淵より', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
+    { name: 'タコキャンディー', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: '夜迷祭', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: 'きおくあそび', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: '実験体δは青に微笑む', filter: '2PL', badge: '2PL', meta: '1日' },
     { name: 'たたら', filter: '2PL', badge: '2PL', meta: '半日' },
     { name: '東亰臨死クラブ', filter: '1-2PL', badge: '1-2PL', meta: '半日' },
     { name: '海石榴邸殺人事件', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
+    { name: 'リボルバー', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
     { name: 'うみひどら', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
     { name: '辜月のN', filter: '2PL', badge: '2PL', meta: '1日' },
     { name: '片鱗', filter: '2PL', badge: '2PL', meta: '半日' },
@@ -58,6 +61,8 @@ window.completedData = {
     { name: '海も枯れるまで', filter: '2PL', badge: '2PL', meta: '1日' },
     { name: '死人に口あり', filter: '2PL', badge: '2PL', meta: '1日' },
     { name: '異説・狂人日記', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
+    { name: 'てれれ霖雨', filter: '2PL', badge: '2PL', meta: '1日' },
+    { name: '蹂躙するは我が手にて', filter: '4PL', badge: '4PL', meta: '半日' }
   ],
   ongoing: [
     { name: '黄身と蜂蜜', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
@@ -84,15 +89,17 @@ window.completedData = {
   planned: [
     { name: '遺香廻り', filter: '4PL', badge: '4PL', meta: '4日' },
     { name: 'シャーロック・ホームズ症候群', filter: '2PL', badge: '2PL', meta: '3日' },
-    { name: 'てれれ霖雨', filter: '2PL', badge: '2PL', meta: '1日' },
+    { name: '遺夏', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
+    { name: '気づいたらしんでた', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
     { name: '怪訝館の殺人', filter: '2-3PL', badge: '2-3PL', meta: '半日' },
     { name: '星の吸血鬼にさよならを', filter: '2PL', badge: '2PL', meta: '1日' },
     { name: '壊胎', filter: '2PL', badge: '2PL', meta: '1日' },
     { name: '邂逅', filter: '2PL', badge: '2PL', meta: '2日' },
+    { name: 'オトギバラシ', filter: '2PL', badge: '2PL', meta: '2日' },
     { name: '天使の魔眼は死を殺す', filter: '2PL', badge: '2PL', meta: '2日' },
     { name: 'Bye-bye Summer Days', filter: '4PL', badge: '4PL', meta: '1日' },
     { name: '選択の館', filter: '2-4PL', badge: '2-4PL', meta: '1日' },
     { name: 'かいぶつたちとマホラカルト', filter: '4PL', badge: '4PL', meta: '1日' },
-    { name: '蹂躙するは我が手にて', filter: '4PL', badge: '4PL', meta: '半日' }
+    
   ]
 };

@@ -56,6 +56,28 @@ h1 {
   max-width: 60ch;
 }
 
+.page-actions {
+  margin-top: 1rem;
+}
+
+.page-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--text);
+  text-decoration: none;
+  border: 1px solid var(--border);
+  padding: 0.45rem 0.8rem;
+  transition: border-color 0.15s, color 0.15s, background-color 0.15s;
+}
+
+.page-link:hover,
+.page-link:focus-visible {
+  color: #f5f7ff;
+  border-color: var(--accent);
+  background: rgba(255, 255, 255, 0.03);
+}
+
 main {
   display: grid;
   gap: 1rem;
@@ -115,6 +137,49 @@ p {
   margin: 0.25rem 0 0;
   font-size: 1.04rem;
   font-weight: 600;
+}
+
+.sheet-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.sheet-list li {
+  margin: 0;
+}
+
+.sheet-link {
+  display: block;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--border);
+  color: inherit;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.02);
+  transition: border-color 0.15s, transform 0.15s, background-color 0.15s;
+}
+
+.sheet-link:hover,
+.sheet-link:focus-visible {
+  border-color: var(--accent);
+  background: rgba(255, 255, 255, 0.04);
+  transform: translateY(-1px);
+}
+
+.sheet-title {
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #f0f2f8;
+}
+
+.sheet-meta {
+  display: block;
+  margin-top: 0.3rem;
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 .tag-list {
