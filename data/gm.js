@@ -35,4 +35,5 @@ window.gmData = [
    { name: 'Feel All Right', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
   { name: '満月のない十五夜', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
   { name: 'KPCの家で自陣がBBQするシナリオ', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
+  { name: 'The childrens forest', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
 ];
