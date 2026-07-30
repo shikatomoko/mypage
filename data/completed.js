@@ -97,7 +97,6 @@ window.completedData = {
   planned: [
     { name: 'シャーロック・ホームズ症候群', filter: '2PL', badge: '2PL', meta: '3日' },
     { name: '遺暑', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
-   
     { name: '邂逅', filter: '2PL', badge: '2PL', meta: '2日' },
     { name: 'オトギバラシ', filter: '2PL', badge: '2PL', meta: '2日' },
     { name: '天使の魔眼は死を殺す', filter: '2PL', badge: '2PL', meta: '2日' },
