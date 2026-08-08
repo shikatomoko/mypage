@@ -7,5 +7,15 @@ window.galleryData = [
   { image: 'ディスプレイ/水無月新.png', character: '水無月新', scenario: '初恋性ストックホルム症候群' },
   { image: 'ディスプレイ/柊一葉.png', character: '柊一葉', scenario: '花冷えに亡く季節' },
   { image: 'ディスプレイ/雛森有栖.png', character: '雛森有栖', scenario: '海も枯れるまで' },
-  { image: 'ディスプレイ/縦糸紫理.png', character: '縦糸紫理', scenario: '蒲桃館の友人' }
+  { image: 'ディスプレイ/縦糸紫理.png', character: '縦糸紫理', scenario: '蒲桃館の友人' },
+  { image: 'ディスプレイ/ミナ.png', character: 'ミナ', scenario: 'fw:死人に口あり' },
+  { image: 'ディスプレイ/宮沢郁.png', character: '宮沢郁', scenario: 'エルズ・コール' },
+  { image: 'ディスプレイ/笹月美玲.png', character: '笹月美玲', scenario: '怪訝館の殺人' },
+  { image: 'ディスプレイ/時影玲音.png', character: '時影玲音', scenario: '壊胎' },
+  { image: 'ディスプレイ/西織水景.png', character: '西織水景', scenario: '星の吸血鬼にさよならを' },
+  { image: 'ディスプレイ/浅海亜坂.png', character: '浅海亜坂', scenario: '異説・狂人日記' },
+  { image: 'ディスプレイ/緋月朱金.png', character: '緋月朱金', scenario: 'てれれ霖雨' },
+  { image: 'ディスプレイ/霧川未空.png', character: '霧川未空', scenario: '果てにて' },
+  { image: 'ディスプレイ/惡痾仍鵺.png', character: '惡痾仍鵺', scenario: '遺香廻り' },
+  { image: 'ディスプレイ/ティティ・エルピーダ.png', character: 'ティティ・エルピーダ', scenario: '蹂躙するは我が手にて' }
 ];

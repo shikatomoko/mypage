@@ -4,6 +4,7 @@ window.gmData = [
   { name: 'カタシロ', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
   { name: '禁足地A', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
   { name: '真夜中、この子が泣いたから', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
+  { name: 'アブダクション・パニック！', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
   { name: 'おいでおいで', filter: 'ソロ', badge: 'ソロ', meta: '1h' },
   { name: '暗晦', filter: 'ソロ', badge: 'ソロ', meta: '1h' },
   { name: 'あまがささん', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
