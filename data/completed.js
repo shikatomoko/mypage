@@ -22,6 +22,8 @@ window.completedData = {
     { name: 'トンネルの噂', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: '電子の深淵より', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: 'タコキャンディー', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
+    { name: 'したいをあらう', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
+    { name: 'よるのとばりのうちがわで', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: '夜迷祭', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: 'きおくあそび', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: '実験体δは青に微笑む', filter: '2PL', badge: '2PL', meta: '1日' },
@@ -98,6 +100,8 @@ window.completedData = {
   ],
   planned: [
     { name: '遺暑', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
+    { name: '歌声にパレード', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
+    { name: '炯炯アデュラレッセンス', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
     { name: '邂逅', filter: '2PL', badge: '2PL', meta: '2日' },
     { name: 'エルズ・コール', filter: '4PL', badge: '4PL', meta: '2日' },
     { name: 'オトギバラシ', filter: '2PL', badge: '2PL', meta: '2日' },

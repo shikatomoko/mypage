@@ -4,6 +4,11 @@ const completedTabs = [
   { key: 'planned', label: '通過予定' }
 ];
 
+const gmTabs = [
+  { key: 'main', label: 'メイン' },
+  { key: 'ongoing', label: '継続' }
+];
+
 const filterOrder = ['ソロ', 'タイマン', 'KPレス', '1-2PL', '2-3PL', '1-4PL', '2PL', '3PL', '4PL'];
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -22,7 +27,7 @@ function loadPageData() {
 
     // Calculate counts from data (always use actual data count, not profile meta)
     const completedCount = (data.completed.main?.length || 0) + (data.completed.ongoing?.length || 0);
-    const gmCount = data.gm.length;
+    const gmCount = Array.isArray(data.gm) ? data.gm.length : ((data.gm.main?.length || 0) + (data.gm.ongoing?.length || 0));
     document.getElementById('completed-count').textContent = String(completedCount);
     document.getElementById('gm-count').textContent = String(gmCount);
 
@@ -79,7 +84,42 @@ function renderCompletedScenarios(data) {
 
 function renderScenarioSection(targetId, items) {
   const target = document.getElementById(targetId);
+  const sectionItems = normalizeScenarioSections(items);
+
+  if (sectionItems) {
+    target.innerHTML = [
+      '<div class="tab-bar">',
+      gmTabs.map((tab, index) => {
+        return '<button class="tab-btn' + (index === 0 ? ' active' : '') + '" data-tab="' + tab.key + '">' + escapeHtml(tab.label) + '</button>';
+      }).join(''),
+      '</div>',
+      gmTabs.map((tab, index) => {
+        return buildScenarioPanel(tab.key, sectionItems[tab.key] || [], index !== 0);
+      }).join('')
+    ].join('');
+    return;
+  }
+
   target.innerHTML = buildFilterBar(items) + buildScenarioList(items);
+}
+
+function normalizeScenarioSections(items) {
+  if (Array.isArray(items)) {
+    const midpoint = Math.ceil(items.length / 2);
+    return {
+      main: items.slice(0, midpoint),
+      ongoing: items.slice(midpoint)
+    };
+  }
+
+  if (items && typeof items === 'object') {
+    return {
+      main: items.main || [],
+      ongoing: items.ongoing || []
+    };
+  }
+
+  return null;
 }
 
 function buildScenarioPanel(id, items, hidden) {
