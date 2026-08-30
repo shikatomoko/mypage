@@ -71,6 +71,9 @@ window.completedData = {
     { name: '星の吸血鬼にさよならを', filter: '2PL', badge: '2PL', meta: '1日' },
     { name: '選択の館', filter: '2-4PL', badge: '2-4PL', meta: '1日' },
     { name: 'The childrens forest', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
+    { name: '邂逅', filter: '2PL', badge: '2PL', meta: '2日' },
+    { name: 'エルズ・コール', filter: '4PL', badge: '4PL', meta: '2日' },
+    { name: 'オトギバラシ', filter: '2PL', badge: '2PL', meta: '2日' },
   ],
   ongoing: [
     { name: '黄身と蜂蜜', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
@@ -97,16 +100,14 @@ window.completedData = {
     { name: '気づいたらしんでた', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
     { name: '阿吽の呼吸検定試験', filter: 'KPレス', badge: 'KPレス', meta: '継続' },
     { name: '骨組みだけの宇宙', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
+    { name: '炯炯アデュラレッセンス', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
   ],
   planned: [
     { name: '遺暑', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
     { name: '歌声にパレード', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
-    { name: '炯炯アデュラレッセンス', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
-    { name: '邂逅', filter: '2PL', badge: '2PL', meta: '2日' },
-    { name: 'エルズ・コール', filter: '4PL', badge: '4PL', meta: '2日' },
-    { name: 'オトギバラシ', filter: '2PL', badge: '2PL', meta: '2日' },
     { name: 'Bye-bye Summer Days', filter: '4PL', badge: '4PL', meta: '1日' },
     { name: 'かいぶつたちとマホラカルト', filter: '4PL', badge: '4PL', meta: '1日' },
+    { name: '水槽のない水族館', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
     
   ]
 };
