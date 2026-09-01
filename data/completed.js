@@ -71,6 +71,7 @@ window.completedData = {
     { name: '星の吸血鬼にさよならを', filter: '2PL', badge: '2PL', meta: '1日' },
     { name: '選択の館', filter: '2-4PL', badge: '2-4PL', meta: '1日' },
     { name: 'The childrens forest', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
+    { name: 'まれびとこぞりて', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
     { name: '邂逅', filter: '2PL', badge: '2PL', meta: '2日' },
     { name: 'エルズ・コール', filter: '4PL', badge: '4PL', meta: '2日' },
     { name: 'オトギバラシ', filter: '2PL', badge: '2PL', meta: '2日' },
