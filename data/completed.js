@@ -18,6 +18,7 @@ window.completedData = {
     { name: '波間にまにまに', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: 'フカシカ▲▲▲', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: 'くゆる睡蓮', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
+    { name: '繋ナグ', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: 'シキラレ■■', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: 'トンネルの噂', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: '電子の深淵より', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
@@ -107,6 +108,8 @@ window.completedData = {
     { name: '遺暑', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
     { name: '歌声にパレード', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: 'Bye-bye Summer Days', filter: '4PL', badge: '4PL', meta: '1日' },
+    { name: '嗤う人間師', filter: '4PL', badge: '4PL', meta: '1日' },
+    { name: '煉獄街の夜', filter: '4PL', badge: '4PL', meta: '2日' },
     { name: 'かいぶつたちとマホラカルト', filter: '4PL', badge: '4PL', meta: '1日' },
     { name: '水槽のない水族館', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
     

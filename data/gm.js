@@ -31,6 +31,7 @@ window.gmData = {
     { name: 'Good Morning All', filter: '2PL', badge: '2PL', meta: '1日' },
     { name: 'DOGMA', filter: '2PL', badge: '2PL', meta: '半日' },
     { name: '辜月のN', filter: '2PL', badge: '2PL', meta: '1日' },
+    { name: '星の神話、エンドロール', filter: '3PL', badge: '3PL', meta: '1日' },
     { name: 'SDMBBBB!', filter: '4PL', badge: '4PL', meta: '半日' },
     { name: 'エアツェールング・ダス・エンデ', filter: '4PL', badge: '4PL', meta: '3日' },
     { name: 'レ・ミゼラブルの復讐', filter: '4PL', badge: '4PL', meta: '3日' },
@@ -57,6 +58,10 @@ window.gmData = {
     { name: 'ひときれの無垢', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
     { name: '４ぶんの１', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
     { name: '炯炯アデュラレッセンス', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
-    { name: 'KPCの家で自陣がBBQするシナリオ', filter: '1-4PL', badge: '1-4PL', meta: '半日' }
+    { name: 'KPCの家で自陣がBBQするシナリオ', filter: '1-4PL', badge: '1-4PL', meta: '継続' },
+    { name: '辛々', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
+    { name: '水槽のない水族館', filter: '1-4PL', badge: '1-4PL', meta: '継続' }
+
+
   ]
 };
