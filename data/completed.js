@@ -15,6 +15,7 @@ window.completedData = {
     { name: 'じょはり', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
     { name: '触レル美術館', filter: 'KPレス', badge: 'KPレス', meta: '1h' },
     { name: '可惜夜明けて此岸に伏す', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
+    { name: '山間に篝火', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: '波間にまにまに', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: 'フカシカ▲▲▲', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: 'くゆる睡蓮', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
