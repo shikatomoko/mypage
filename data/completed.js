@@ -13,6 +13,7 @@ window.completedData = {
     { name: 'ループ橋で何かが自分を待っているんです', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
     { name: '初恋性ストックホルム症候群', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
     { name: 'じょはり', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
+    { name: '手記だらけの部屋', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: '触レル美術館', filter: 'KPレス', badge: 'KPレス', meta: '1h' },
     { name: '可惜夜明けて此岸に伏す', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: '山間に篝火', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
@@ -55,6 +56,8 @@ window.completedData = {
     { name: 'ソープスクール', filter: '4PL', badge: '4PL', meta: '2日' },
     { name: '静なるテロリスタ', filter: '4PL', badge: '4PL', meta: '3日' },
     { name: 'カノヨ街', filter: '4PL', badge: '4PL', meta: '2日' },
+    { name: 'Bye-bye Summer Days', filter: '4PL', badge: '4PL', meta: '1日' },
+    { name: '煉獄街の夜', filter: '4PL', badge: '4PL', meta: '2日' },
     { name: '黄色い蝶', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
     { name: '蒲桃館の友人', filter: '2-3PL', badge: '2-3PL', meta: '半日' },
     { name: 'Danza Tarantella', filter: '4PL', badge: '4PL', meta: '1日' },
@@ -102,17 +105,17 @@ window.completedData = {
     { name: '果てにて', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
     { name: '気づいたらしんでた', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
     { name: '阿吽の呼吸検定試験', filter: 'KPレス', badge: 'KPレス', meta: '継続' },
-    { name: '骨組みだけの宇宙', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
+    { name: '冒涜的な格安肉で唐揚げパーティしようぜ', filter: 'KPレス', badge: 'KPレス', meta: '継続' },
+    { name: '白い部屋とペンギンシリーズ', filter: 'KPレス', badge: 'KPレス', meta: '継続' },
+    { name: '歌声にパレード', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
     { name: '炯炯アデュラレッセンス', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
+    { name: '水槽のない水族館', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
   ],
   planned: [
     { name: '遺暑', filter: 'タイマン', badge: 'タイマン', meta: '半日' },
-    { name: '歌声にパレード', filter: 'KPレス', badge: 'KPレス', meta: '半日' },
-    { name: 'Bye-bye Summer Days', filter: '4PL', badge: '4PL', meta: '1日' },
-    { name: '嗤う人間師', filter: '4PL', badge: '4PL', meta: '1日' },
-    { name: '煉獄街の夜', filter: '4PL', badge: '4PL', meta: '2日' },
+    { name: '嗤う人間師', filter: '4PL', badge: '4PL', meta: '1日' },    
     { name: 'かいぶつたちとマホラカルト', filter: '4PL', badge: '4PL', meta: '1日' },
-    { name: '水槽のない水族館', filter: '1-4PL', badge: '1-4PL', meta: '半日' },
+   
     
   ]
 };
