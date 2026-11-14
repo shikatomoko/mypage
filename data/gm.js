@@ -4,6 +4,7 @@ window.gmData = {
     { name: '異説・狂人日記', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
     { name: '風呂ホラーRTA', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
     { name: '歪の揺籠', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
+    { name: '虚構と数式', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
     { name: 'じょはり', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
     { name: 'カタシロ', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
     { name: '禁足地A', filter: 'ソロ', badge: 'ソロ', meta: '半日' },
