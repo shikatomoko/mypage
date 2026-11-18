@@ -83,6 +83,7 @@ window.completedData = {
   ],
   ongoing: [
     { name: '黄身と蜂蜜', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
+    { name: '轟', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
     { name: '君のためのヒポクリシー', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
     { name: '素晴らしき新年', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
     { name: '結んだ赤い糸の先を教えて', filter: 'タイマン', badge: 'タイマン', meta: '継続' },
